@@ -1,0 +1,32 @@
+  O código "cadastrador.py" tem como objetivo cadastrar funcionários de uma suposta
+empresa, assim, armazenando dados como CPF, Email, nome e tipo de funcionário.
+Porém, vale sublinhar certos pontos a serem melhorados no sistema.
+
+  Em primeiro plano, pode-se observar que o sistema não está 100% realizado, tal 
+como visto nos comentários das linhas 11 a 14, assim, concluindo que o sistema está
+precário da validação de CPF, Email válido e dados iguais cadastrados.
+
+  Segundamente, alguns comentários podem ser melhorados para melhor entendimento de
+outro desenvolvedor que possa usar ou ler o código, tal como:
+  - Linha 20: "Lista de dados específicos" > "Listas de dados";
+  - Linha 34: "Funções" > Pode existir uma explicação para cada função operante;
+  - Linha 74: "Classes" > A explicação de como funciona e função da classe é
+  necessária;
+  Vale adicionar que em certos pontos do código é totalmente válido o uso de
+comentários a fim de aumentar o entendimento e uso do mesmo por terceiros.
+
+  Ademais, abordando a estrutura e código em si, vale sublinhar algumas possíveis
+melhoras (Code Smells) a fim de aumentar a funcionalidade, usabilidade, eficiência, 
+leitura e manutenibilidade do mesmo, assim, pontua-se os pontos:
+  1- Nome de classes: na linha 75, é visto a classe "relatorios", porém, por
+práticas comúm a fim de melhorar a leitura de códigos, deve-se usar o método Pascal
+case para nomeção do mesmo, assim, mudando-o para "Relatorios".
+  2- Validação de CPF, Email e Dados iguais: não existe a verificação necessária
+para os dados, assim, podendo der dados duplicados no sistema ou inválidos.
+  3- Opções não programadas no menu: as opções 3 e 4, ambas listadas no menu, não
+possuem seu devido funcionamento, assim, podendo ser algo inútil para o sistema, a 
+menos que exista as funções necessárias para seu funcionamento.
+
+  Portanto, o código tem potencial, mas precisa de melhorias significativas para se
+tornar mais robusto, legível e funcional. A implementação das sugestões acima 
+aumentará a qualidade do sistema, facilitando sua manutenção e expansão no futuro.
