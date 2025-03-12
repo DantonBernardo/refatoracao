@@ -1,3 +1,5 @@
+Realizado por: Danton Bernardo Oliveira de Souza.
+
   Código a ser analisado é nomeado como "App.js", o qual tem
 como objetivo a captação de dados de uma API e demonstrá-las 
 numa página web. Assim, pode-se sublinhar algumas melhorias:
