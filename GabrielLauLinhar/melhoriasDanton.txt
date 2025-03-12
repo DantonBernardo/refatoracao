@@ -1,0 +1,11 @@
+  Código a ser analisado é nomeado como "App.js", o qual tem
+como objetivo a captação de dados de uma API e demonstrá-las 
+numa página web. Assim, pode-se sublinhar algumas melhorias:
+  - Linha 5: Nome genérico para a variável 'cards', pois, 
+  assim, pode ocorrer algum erro ao duplicar o nome em outra
+  variável no resto do sistema;
+  - Linha 11: Link da API a mostra, podendo ser armazenado em
+  outro arquivo ".env" para melhor organização e segurança;
+  - Linha 24: Classe "App" com nome muito genérico, podendo 
+  causar conflitos em outras partes do sistema ao acessar a 
+  mesma.
